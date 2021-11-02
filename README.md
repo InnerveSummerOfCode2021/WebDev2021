@@ -9,7 +9,7 @@ existing projects according to your fit. Keeping in mind the theme of Innerve th
 
 # Project  - Student Portal for College/University ( Website )
 --------------------------------
-The project consists of a brand folder which has basic template colours and logo to refer from and further creativitiy is welcome! 
+The project consists of a brandkit text file which has basic template colours and logo to refer from and further creativitiy is welcome! 
 
 # Basic features to be added :
 ----------------------------
