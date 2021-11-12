@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #33425B;
+    --dark-grey: #6B7280;
+    --off-white: #F3F4F6;
+    --bg-color: #D8E9F0;
+    --black: #29252C;
+    --red: #F33535;
+}
+
+.int-btn {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.lor {
+    animation: lor 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lor {
+    0% {
+        transform: translateX(-800px);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+.rol {
+    animation: rol 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rol {
+    0% {
+        transform: translateX(800px);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
